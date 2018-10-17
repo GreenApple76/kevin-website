@@ -1,0 +1,365 @@
+@font-face {
+  font-family: 'stormextrabold';
+  src: url('../fonts/storeb__-webfont.eot');
+  src: url('../fonts/storeb__-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/storeb__-webfont.woff2') format('woff2'),
+       url('../fonts/storeb__-webfont.woff') format('woff'),
+       url('../fonts/storeb__-webfont.ttf') format('truetype'),
+       url('../fonts/storeb__-webfont.svg#stormextrabold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@-webkit-keyframes slideUp {
+0% {
+  -ms-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateY(15rem);
+  opacity: 0;
+}
+100% {
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+}
+
+@keyframes slideUp {
+0% {
+  -ms-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateY(15rem);
+  opacity: 0;
+}
+100% {
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+font-size: 62.5%;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+font-size: 1.6rem;
+font-weight: 400;
+letter-spacing: .125rem;
+line-height: 1.5;
+padding-top: 5rem;
+color: #333;
+background-color: #ffa500;
+position: relative;
+}
+
+
+
+h1 {
+color: #fff !important; 
+font-family: 'Roboto', serif;
+font-size: 3.6rem;
+font-style: italic;
+font-weight: 900;
+text-shadow: #000080 0.2rem 0.2rem 1rem;
+text-transform: uppercase;
+line-height: 1;
+position: relative;
+left: -200rem;
+margin-bottom: 2rem;
+}
+
+h2 {
+font-family: 'Roboto', serif;
+font-size: 2.0rem;
+font-weight: 900;
+color: #000080;
+margin-top: 20rem;
+margin-bottom: 2.5rem;
+padding-top: 2rem;
+}
+
+p {
+margin: 1.6rem 0;
+}
+
+section ul {
+padding: 0;
+}
+
+ul li {
+list-style: none;
+max-width: 20rem;
+background-color: transparent !important;
+}
+
+svg {
+vertical-align: middle;
+}
+
+svg path {
+fill: #000080;
+}
+
+input[type=text], 
+textarea {
+border: 0 !important;
+border-bottom: 0.2rem solid #999 !important;
+outline: none;
+}
+
+input[type=text]:focus, 
+textarea:focus {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+textarea {
+resize: none;
+}
+
+input[type="submit"] { 
+color: #fff;
+background-color: #000080;
+padding: 1rem 2rem;
+letter-spacing: 0.1rem;
+}
+
+.navbar-brand {
+letter-spacing: 0.25rem;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.nav a {
+letter-spacing: 0.25rem;
+}
+
+.unfloat {
+float: none;
+}
+
+.hero {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000080), to(rgba(255, 255, 255, 0.1))), url("../img/speedometer.jpg");
+    background-image: linear-gradient(#000080, rgba(255, 255, 255, 0.1)), url("../img/speedometer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbo {
+font-weight: 500;
+text-shadow: #000080 0.2rem 0.2rem 1rem;
+letter-spacing: .125rem;
+margin-top: -1rem;
+color: #fff;
+-webkit-animation: slideUp 0.75s 0.5s forwards;
+        animation: slideUp 0.75s 0.5s forwards;
+opacity: 0;
+}
+
+.jumbotron {
+padding-left: 1.5rem !important;
+padding-right: 1.5rem !important;
+padding-bottom: 0;
+margin-bottom: 0;
+background-color: transparent !important;
+border-radius: 0 !important;
+text-align: center;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.project {
+margin-bottom: 4.8rem;
+}
+
+.project {
+position: relative;
+width: auto;
+height: auto;
+}
+
+.overlay {
+position: absolute;
+height: 100%;
+width:100%;
+top:0;
+left:0;
+opacity: 0;
+-webkit-transition: all .5s ease;
+-o-transition: all .5s ease;
+transition: all .5s ease;
+background-color: #000080;
+background-color: #000080dd;
+border-radius: 5%;
+}
+
+.project:hover .overlay {
+opacity: 1;
+}
+
+.overlay .text {
+color: white;
+font-size: 20px;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+font-family: sans-serif;
+}
+
+.overlay .text a {
+color: #ffa500;
+}
+
+.img-responsive {
+border-radius: 5%;
+-webkit-box-shadow: 0.6rem 0.6rem 1.2rem #666;
+        box-shadow: 0.6rem 0.6rem 1.2rem #666;
+}
+
+.contact-form {
+background-color: #ddd;
+padding: 1.5rem;
+margin-top: 1rem;
+border-radius: 1rem;
+}
+
+.form-response, .form-error {
+font-size: 2rem;
+font-weight: bold;
+color: green;
+}
+
+.form-error {
+color: red;
+}
+
+.copyright {
+padding-top: 3rem;
+padding-bottom: 50rem;
+font-size: 1.4rem;
+font-style: italic;
+}
+
+.navbar-default {
+background-color: #000080;
+border-color: #ffa500;
+}
+.navbar-default .navbar-brand {
+color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+color: #ffa500;
+}
+.navbar-default .navbar-text {
+color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+color: #ffa500;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+color: #000080;
+background-color: #ffa500;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+color: #000080;
+background-color: #ffa500;
+}
+.navbar-default .navbar-toggle {
+border-color: #ffa500;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+background-color: #ffa500;
+}
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+color: #000080;
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 3.2rem;
+        text-align: left;
+        margin-top: 20rem;
+    }
+
+    .benefit-icon {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .benefit-icon + strong {
+        display: block;
+        text-align: center;
+    }
+
+    .benefits {
+        display: inline-block;
+        width: 33%;
+        margin-top: 3.6rem;
+        padding-left: 1.6rem;
+        padding-right: 1.6rem;
+        vertical-align: top;
+    }
+
+    .benefits svg {
+        display: block;
+        margin: auto;
+    }
+
+    .benefits strong {
+        display: block;
+        text-align: center;
+    }
+
+    .project {
+        display: inline-block;
+        vertical-align: top;
+        margin-bottom: 3.2rem;
+    }
+}
+
