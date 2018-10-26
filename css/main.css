@@ -10,36 +10,6 @@
   font-style: normal;
 }
 
-@-webkit-keyframes slideUp {
-0% {
-  -ms-transform: translateX(-100%);
-  -webkit-transform: translateX(-100%);
-  transform: translateY(15rem);
-  opacity: 0;
-}
-100% {
-  -ms-transform: translateX(0);
-  -webkit-transform: translateX(0);
-  transform: translateY(0);
-  opacity: 1;
-}
-}
-
-@keyframes slideUp {
-0% {
-  -ms-transform: translateX(-100%);
-  -webkit-transform: translateX(-100%);
-  transform: translateY(15rem);
-  opacity: 0;
-}
-100% {
-  -ms-transform: translateX(0);
-  -webkit-transform: translateX(0);
-  transform: translateY(0);
-  opacity: 1;
-}
-}
-
 html, body {
     width: 100%;
     height: 100%;
@@ -58,7 +28,6 @@ line-height: 1.5;
 padding-top: 5rem;
 color: #333;
 background-color: #ffa500;
-position: relative;
 }
 
 
@@ -72,8 +41,6 @@ font-weight: 900;
 text-shadow: #000080 0.2rem 0.2rem 1rem;
 text-transform: uppercase;
 line-height: 1;
-position: relative;
-left: -200rem;
 margin-bottom: 2rem;
 }
 
@@ -166,17 +133,6 @@ float: none;
     background-size: cover;
 }
 
-.jumbo {
-font-weight: 500;
-text-shadow: #000080 0.2rem 0.2rem 1rem;
-letter-spacing: .125rem;
-margin-top: -1rem;
-color: #fff;
--webkit-animation: slideUp 0.75s 0.5s forwards;
-        animation: slideUp 0.75s 0.5s forwards;
-opacity: 0;
-}
-
 .jumbotron {
 padding-left: 1.5rem !important;
 padding-right: 1.5rem !important;
@@ -189,6 +145,14 @@ text-align: center;
 
 .list-group-item {
     border: none;
+}
+
+.project {
+    opacity: 0;
+}
+
+.projectview {
+    opacity: 1;
 }
 
 .project {

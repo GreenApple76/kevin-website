@@ -1,18 +1,30 @@
 $(document).ready(function(){
-  // slide in top portion of hero section
-  $('h1').animate({"left":"0px"}, 250);
-
-  // highlight active navigation element
-  // $('li').click(function(e){
-  //   $('li').removeClass('active');
-  //   $(this).addClass('active');
-  // });
-
   // close navbar menu on link click
   $('.nav a').on('click', function(){
     $('.navbar-toggle').click(); 
   });
 
+  // check viewport
+  var isInViewport = function (elem) {
+    var bounding = elem.getBoundingClientRect();
+    return (
+        bounding.top >= 0 &&
+        bounding.left >= 0 &&
+        bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+};
+
+  // animate skills and portfolio 
+  var listGroupItem = document.querySelector('.list-group-item');
+  var project = document.querySelector('.project');
+  window.addEventListener('scroll', function () {
+    if (isInViewport(project)) {
+      $('.project').addClass('projectview animated zoomInDown');
+    } else if (isInViewport(listGroupItem)) {
+      $('.list-group-item').addClass('animated zoomInDown');
+    }
+  }, false);
 
   // generate dynamic greeting
   var now = new Date();
@@ -55,9 +67,9 @@ $(document).ready(function(){
 
   // play swoosh sound effect when clicking on navbar elements
   var audioElement = document.createElement('audio');
-  audioElement.setAttribute('src', 'https://www.kevincoulter.com/audio/SWOOSH.mp3');
+  audioElement.setAttribute('src', 'https://kevincoulter.com/audio/SWOOSH.mp3');
   $('.play').click(function() {
     audioElement.play();
   });
-     
+
 });

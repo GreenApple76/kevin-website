@@ -12,7 +12,8 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
@@ -46,8 +47,7 @@
         <div class="jumbotron">
             <div class="col-xs-12 unfloat">
                 <header>
-                    <h1>I develop turbocharged websites!</h1>
-                    <p class="jumbo"><span id="greeting">Hello</span>, my name is <strong>Kevin Coulter</strong>. My passion is front-end web development.</p>
+                    <h1 class="animated zoomInDown">I develop turbocharged websites!</h1>
                 </header>
             </div><!-- col -->
         </div><!-- jumbotron -->
@@ -65,7 +65,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-9">
                                     <p>
-                                        I am a front-end web developer living in Tarpon Springs, Florida. I earned a Bachelor of Science degree in Computer Science from Saint Xavier University in Chicago, IL.
+                                        <span id="greeting">Hello</span>, my name is <strong>Kevin Coulter</strong>. My passion is front-end web development. I am a front-end web developer living in Tarpon Springs, Florida. I earned a Bachelor of Science degree in Computer Science from Saint Xavier University in Chicago, IL.
                                     </p>
                                         My technical skills are:
                                         <ul class="skills list-group row">
@@ -342,6 +342,7 @@
             <source src="audio/SWOOSH.ogg" type="audio/ogg">
             <source src="audio/SWOOSH.mp3" type="audio/mpeg">
         </audio>
+        <script src="js/white-in-view.min.js"></script>
         <script
             src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
