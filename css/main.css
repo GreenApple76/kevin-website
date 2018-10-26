@@ -145,6 +145,11 @@ text-align: center;
 
 .list-group-item {
     border: none;
+    opacity: 0;
+}
+
+.list-group-item-view {
+    opacity: 1;
 }
 
 .project {

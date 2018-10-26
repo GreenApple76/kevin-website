@@ -28,7 +28,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand play" href="/index.php">Kevin Coulter</a>
+            <a class="navbar-brand play" href="/">Kevin Coulter</a>
         </div><!-- navbar-header -->
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -65,7 +65,7 @@
                 </div>
                 <div class="col-xs-12 col-sm-9">
                                     <p>
-                                        <span id="greeting">Hello</span>, my name is <strong>Kevin Coulter</strong>. My passion is front-end web development. I am a front-end web developer living in Tarpon Springs, Florida. I earned a Bachelor of Science degree in Computer Science from Saint Xavier University in Chicago, IL.
+                                        <span id="greeting">Hello</span>, my name is <strong>Kevin Coulter</strong>. My passion is front-end web development. I am a front-end web developer living in Tarpon Springs, Florida. I earned a Bachelor of Science degree in Computer Science from Saint Xavier University.
                                     </p>
                                         My technical skills are:
                                         <ul class="skills list-group row">

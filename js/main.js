@@ -22,7 +22,7 @@ $(document).ready(function(){
     if (isInViewport(project)) {
       $('.project').addClass('projectview animated zoomInDown');
     } else if (isInViewport(listGroupItem)) {
-      $('.list-group-item').addClass('animated zoomInDown');
+      $('.list-group-item').addClass('list-group-item-view animated zoomInDown');
     }
   }, false);
 
