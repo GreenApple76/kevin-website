@@ -342,7 +342,6 @@
             <source src="audio/SWOOSH.ogg" type="audio/ogg">
             <source src="audio/SWOOSH.mp3" type="audio/mpeg">
         </audio>
-        <script src="js/white-in-view.min.js"></script>
         <script
             src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
