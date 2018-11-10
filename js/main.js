@@ -21,7 +21,8 @@ $(document).ready(function(){
   window.addEventListener('scroll', function () {
     if (isInViewport(project)) {
       $('.project').addClass('projectview animated zoomInDown');
-    } else if (isInViewport(listGroupItem)) {
+    } 
+    if (isInViewport(listGroupItem)) {
       $('.list-group-item').addClass('list-group-item-view animated zoomInDown');
     }
   }, false);
