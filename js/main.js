@@ -20,10 +20,18 @@ $(document).ready(function(){
   var project = document.querySelector('.project');
   window.addEventListener('scroll', function () {
     if (isInViewport(project)) {
-      $('.project').addClass('projectview animated zoomInDown');
+      $('.project').each(function(index) {
+        $(this).delay(250*index).queue(function() {
+          $(this).addClass('projectview animated zoomInDown').dequeue();
+        });
+      });
     } 
     if (isInViewport(listGroupItem)) {
-      $('.list-group-item').addClass('list-group-item-view animated zoomInDown');
+      $('.list-group-item').each(function(index) {
+          $(this).delay(250*index).queue(function() {
+            $(this).addClass('list-group-item-view animated zoomInDown').dequeue(); 
+          });
+      });
     }
   }, false);
 
