@@ -1,15 +1,3 @@
-@font-face {
-  font-family: 'stormextrabold';
-  src: url('../fonts/storeb__-webfont.eot');
-  src: url('../fonts/storeb__-webfont.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/storeb__-webfont.woff2') format('woff2'),
-       url('../fonts/storeb__-webfont.woff') format('woff'),
-       url('../fonts/storeb__-webfont.ttf') format('truetype'),
-       url('../fonts/storeb__-webfont.svg#stormextrabold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
 html, body {
     width: 100%;
     height: 100%;
@@ -29,8 +17,6 @@ padding-top: 5rem;
 color: #333;
 background-color: #ffa500;
 }
-
-
 
 h1 {
 color: #fff !important; 
@@ -70,10 +56,6 @@ background-color: transparent !important;
 
 svg {
 vertical-align: middle;
-}
-
-svg path {
-fill: #000080;
 }
 
 input[type=text], 
