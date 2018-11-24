@@ -71,6 +71,7 @@
                                         <ul class="skills list-group row">
                                             <li class="list-group-item col-xs-12 col-md-6 col-lg-4"><img src="img/noun_870285_cc.svg" width="40" height="40" alt="*">HTML5</li>
                                             <li class="list-group-item col-xs-12 col-md-6 col-lg-4"><img src="img/noun_870285_cc.svg" width="40" height="40" alt="*">CSS3</li>
+                                            <li class="list-group-item col-xs-12 col-md-6 col-lg-4"><img src="img/noun_870285_cc.svg" width="40" height="40" alt="*">SASS</li>
                                             <li class="list-group-item col-xs-12 col-md-6 col-lg-4"><img src="img/noun_870285_cc.svg" width="40" height="40" alt="*">Bootstrap</li>
                                             <li class="list-group-item col-xs-12 col-md-6 col-lg-4"><img src="img/noun_870285_cc.svg" width="40" height="40" alt="*">JavaScript</li>
                                             <li class="list-group-item col-xs-12 col-md-6 col-lg-4"><img src="img/noun_870285_cc.svg" width="40" height="40" alt="*">jQuery</li>

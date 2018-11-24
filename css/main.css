@@ -210,6 +210,15 @@ color: green;
 color: red;
 }
 
+.g-recaptcha {
+    transform:scale(0.8);
+    transform-origin:0;
+    -webkit-transform:scale(0.8);
+    transform:scale(0.8);
+    -webkit-transform-origin:0 0;
+    transform-origin:0 0;
+}
+
 .copyright {
 padding-top: 3rem;
 padding-bottom: 50rem;
