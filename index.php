@@ -237,16 +237,13 @@
       }
 
       //Email information
-      // $admin_email = "kevin@kevincoulter.com";
       $admin_email = "kevin.coulter@gmail.com";
-      $email = $_REQUEST['email'];
+      $email = strip_tags(trim($_REQUEST['email']));
       $subject = "Website Contact Form Submission";
-      $comment = $_REQUEST['comment'];
-      $phone = $_REQUEST['phone'];
+      $comment = strip_tags(trim($_REQUEST['comment']));
+      $phone = strip_tags(trim($_REQUEST['phone']));
       $name = strip_tags(trim($_REQUEST['name']));
       $comment = "Name: " . $name . "\n" . "Phone: " . $phone . "\n" . "Comment: " . $comment; 
-      $comment = strip_tags($comment);
-      // $gotoform = "<br><a href=\"index.php#contact\">Return to Contact Us form</a>";
 
       $gotoform = "<br><form method=\"post\" action=\"index.php#contact\">
       <input type=\"text\" class=\"form-control input-lg\" name=\"name\" placeholder=\"Name\"><br>
