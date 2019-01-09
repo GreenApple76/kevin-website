@@ -50,10 +50,10 @@ $(document).ready(function(){
   $('body').bind('touchstart', function() {});
 
   // play swoosh sound effect when clicking on navbar elements
-  var audioElement = document.createElement('audio');
-  audioElement.setAttribute('src', 'https://kevincoulter.com/audio/SWOOSH.mp3');
-  $('.play').click(function() {
-    audioElement.play();
-  });
+  // var audioElement = document.createElement('audio');
+  // audioElement.setAttribute('src', 'https://kevincoulter.com/audio/SWOOSH.mp3');
+  // $('.play').click(function() {
+    // audioElement.play();
+  // });
 
 });

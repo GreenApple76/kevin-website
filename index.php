@@ -28,13 +28,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand play" href="/">Kevin Coulter</a>
+            <a class="navbar-brand" href="/">Kevin Coulter</a>
         </div><!-- navbar-header -->
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about" class="play">ABOUT</a></li>
-                <li><a href="#portfolio" class="play">PORTFOLIO</a></li>
-                <li><a href="#contact" class="play">CONTACT</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
             </ul>
         </div><!-- nav-collapse -->
     </div><!-- container-fluid -->
@@ -336,10 +336,6 @@
     </div><!-- row -->
 </div><!-- container-fluid -->
 
-        <audio autoplay>
-            <source src="audio/SWOOSH.ogg" type="audio/ogg">
-            <source src="audio/SWOOSH.mp3" type="audio/mpeg">
-        </audio>
         <script
             src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
