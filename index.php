@@ -75,6 +75,7 @@
                                             <li class="list-group-item col-xs-12 col-md-6 col-lg-4"><img src="img/noun_870285_cc.svg" width="40" height="40" alt="*">Bootstrap</li>
                                             <li class="list-group-item col-xs-12 col-md-6 col-lg-4"><img src="img/noun_870285_cc.svg" width="40" height="40" alt="*">JavaScript</li>
                                             <li class="list-group-item col-xs-12 col-md-6 col-lg-4"><img src="img/noun_870285_cc.svg" width="40" height="40" alt="*">jQuery</li>
+                                            <li class="list-group-item col-xs-12 col-md-6 col-lg-4"><img src="img/noun_870285_cc.svg" width="40" height="40" alt="*">WordPress</li>
                                             <li class="list-group-item col-xs-12 col-md-6 col-lg-4"><img src="img/noun_870285_cc.svg" width="40" height="40" alt="*">git</li>
                                             <li class="list-group-item col-xs-12 col-md-6 col-lg-4"><img src="img/noun_870285_cc.svg" width="40" height="40" alt="*">Photoshop</li>
                                             <li class="list-group-item col-xs-12 col-md-6 col-lg-4"><img src="img/noun_870285_cc.svg" width="40" height="40" alt="*">VS Code</li>
