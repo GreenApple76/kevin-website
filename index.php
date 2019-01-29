@@ -188,6 +188,12 @@
                             <div class="overlay"><div class="text"><a href="https://greenapple76.github.io/random-quote-generator/" target="_blank">Open Project</a><br><br><a href="https://github.com/greenapple76/random-quote-generator/" target="_blank">View Source</a></div></div>
                     </figure>
                 </div>
+                <div class="col-12 col-md-6 col-lg-4"> 
+                    <figure class="project">
+                            <img src="img/twitch-streamers.jpg" alt="Twitch Streamers" class="img-responsive">
+                            <div class="overlay"><div class="text"><a href="https://greenapple76.github.io/twitch-streamers/" target="_blank">Open Project</a><br><br><a href="https://github.com/greenapple76/twitch-streamers/" target="_blank">View Source</a></div></div>
+                    </figure>
+                </div>
             </section>
         </div><!-- col -->
     </div><!-- row -->
